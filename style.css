@@ -8,25 +8,34 @@
 body {
 	
 
-	background-color: white;
+	background-color:white;
 	position:center;
-	margin-top: 100px;
+	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
 	align-content: center;
 
+
 }
 
 
+.logo img { 
+	width: 100%;
+	height: auto;
+	max-width: 100px;
+	margin-left:610px;
+   
 
 
-       }
+
+
+}
 
 .main {margin-top: 8%;
 height: 500px;
 width: 100%;
-margin-bottom: 0%;
+margin-bottom: 40%;
 }
 
 h1 { text-align: center;
@@ -51,9 +60,31 @@ h2{
 	margin-top: 0px;
 	margin-left: 10%;
 	margin-bottom: 30px;
-	color: black;
+	color: orange;
 	
 }
+
+h3{
+	font-family: Elsie, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 2em;
+	font-weight: 800;
+	line-height: 1em;
+	width: 50%;
+	float: left;
+	margin-top: 0px;
+	margin-left: 10%;
+	margin-bottom: 30px;
+	color: white;
+
+
+
+
+
+
+
+
+
+
 .center {
   display: block;
   margin-left: auto;
@@ -75,7 +106,8 @@ h2{
 }
 p{ font-family: quicksand, "Helvetica Neue", Helvetica, Arial, "sans-serif"; 
    font size: 1em;
-    }
+   color: orange
+}
 
 .findus {
 	font-family: quicksand, "Helvetica Neue", Helvetica, Arial, "sans-serif";
@@ -99,7 +131,7 @@ p{ font-family: quicksand, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	color: #666666; 
 	margin-bottom: 0px;
 }
-a.soc {color:#666;}
+a.soc {color:orange;}
 
 .signup {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
@@ -129,12 +161,12 @@ height: 6em;}
 #mc-embedded-subscribe-form {font-size: 1em; margin-left: 10%; padding-top: 0px; width:75%; color: #ffffff;}
 
 
-a.foot {color: #fff;}
+a.foot {color: orange;}
 
 footer { 
 	width: 100%;
 	text-align: center;
-	background-color: #333333;
+	background-color:#1b1a17;
 	margin-top: 0px;
 	height: 175px;
 	float: left;
@@ -143,7 +175,7 @@ footer {
 .footer_text { 
 	margin-top: 0px;
 	padding-top: 20px;
-	color: #fff;
+	color: orange;
 	font-weight: normal;
 	font-family: "Gotham", "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	font-size: 0.5em;
@@ -152,5 +184,6 @@ footer {
 
 .footer_logo { 
 	padding-top: 20px;
+	color: orange;
 	
 }
